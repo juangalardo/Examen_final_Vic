@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+header img {
+    display: flex;
+    width: 125px;
+    height: 24px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    font-size: 13px;
+}
+
+header nav li {
+    list-style: none;
+    margin: 10px;
+}
+
+button {
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    border: 0;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 59px;
+    color: #232C50;
+}
+
+h4 {
+    color: #323851;
+}
+
+#pgeneral {
+    font-size: 17px;
+    line-height: 30px;
+    width: 350px;
+    margin: 20px 0;
+}
+
+main img {
+    width: 540px;
+    height: 480px;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 440px;
+    margin: 90px;
+}
+
+#sectionlistita {      
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#psection {
+    color: #232851;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 35px;
+    width: 433px;
+    margin: 20px 0;
+}
+
+#izq {
+    width: 440px;
+}
+
+#der {
+    width: 440px;
+}
+
+#pcaritastitulo {
+    color: #232851;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 35px;
+    margin: 0 0 50px 0;
+}
+
+#caritas {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 20px;
+}
+
+#testimonios {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    text-align: center;
+    overflow: hidden;
+    width: 450px;
+    background-color: #FAFAFA;
+}
+
+#purple {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8B48BF;
+    height: 224px;
+    color: white;
+    padding: 30px;
+}
+
+#ppurple {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+    width: 438px;
+}
+
+#inverse {
+    background-color: #FFFFFF;
+    color: #8B48BF;
+}
+
+#btnlista {
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 69px;
+    height: 44px;
+    margin-right: 20px;
+}
+
+#plista {
+    margin-left: 90px;
+    color: #B3B2B7;
+    line-height: 25px;
+}
+
+#pcaritas {
+    color: #B9B9C1;
+}
+
+footer {
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    padding: 40px;
+}
+
+footer ul li {
+    list-style-type: none;
+
+}
+
+#footleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 25vw;
+    margin: 0 0 0 100px;
+}
+
+#footcent {
+    display: flex;
+    justify-content: flex-start;
+    width: 25vw;     
+    line-height: 35px;
+}
+
+#footright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25vw;
+    line-height: 0px;
+}
+
+#pderechosreservados {
+    color: #8C8C94;
+    font-size: 13px;
+}
+
+
+form input[type="email"]{
+	width:201px;
+    height: 44px;
+    padding: 10px;
+	border-radius:50px;
+	background-color:#FFFFFF;
+}
