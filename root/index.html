@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen final Front End 1 - 17/09/22</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -15,11 +15,11 @@
     <header>
         <img src="./img/Logo.png" alt="Logo">
         <nav>
-            <li>Pricing</li>
-            <li>Product</li>
-            <li>About Us</li>
-            <li>Careers</li>
-            <li>Community</li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
         </nav>
         <button>Get Started</button>
     </header>
@@ -63,7 +63,7 @@
             <p id="pcaritas">“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused”.</p> 
         </div>
         <div class="card">
-            <img src="./img/avatar-richard 1.png" alt="Richard">
+            <img src="./img/avatar-richard 1.png" alt="Richard" id="iconitos">
             <h5>Richard</h5>
             <p id="pcaritas">“Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone i talk to!”.</p> 
         </div>
@@ -74,36 +74,35 @@
         <p id="ppurple">Simplify hoy your team words today.</p>
         <button id="inverse">Get Started</button>
     </section>
-
     <footer>
         <div id="footleft">
             <div>
-                <img src="./img/Logowhite.png" alt="Logo Manage footer">
+                <img src="./img/Logowhite.png" alt="Logo Manage footer" id="imgfoot">
             </div>
             <div>
-                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a> 
-                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook" id="iconitos"></i></a> 
+                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube" id="iconitos"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter" id="iconitos"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest" id="iconitos"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram" id="iconitos"></i></a>
             </div>
         </div>
         <div id="footcent">
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Pricing</li>
-                    <li>Products</li>
-                    <li>About Us</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
                 </ul>
             </nav>
         </div>
         <div id="footcent">
             <nav>
                 <ul>
-                    <li>Careers</li>
-                    <li>Community</li>
-                    <li>Privacy Policy</li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
                 </ul>
             </nav>
         </div>
@@ -113,7 +112,7 @@
                 <label for="email"></label>
                 <input type="email" name="email" id="email"
                 placeholder="Update in your inbox...">
-                <button id="btnlista">Go</button>
+                <button id="btngo">Go</button>
             </form>
         </div>      
         <div id="pderechosreservados">Copyright 2020. All Rights Reserved</div>

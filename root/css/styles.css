@@ -1,3 +1,5 @@
+/*La resolución es 1440 x 1080 */
+
 * {
     margin: 0;
     padding: 0;
@@ -27,13 +29,15 @@ header nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40vw;
+    width: 50vw;
     font-size: 13px;
+    color: #242E52;
 }
 
 header nav li {
     list-style: none;
     margin: 10px;
+    cursor: pointer;
 }
 
 button {
@@ -127,7 +131,7 @@ main img {
 .card {
     text-align: center;
     overflow: hidden;
-    width: 450px;
+    width: 30vw;
     background-color: #FAFAFA;
 }
 
@@ -136,7 +140,7 @@ main img {
     justify-content: space-around;
     align-items: center;
     background-color: #8B48BF;
-    height: 224px;
+    height: 20vh;
     color: white;
     padding: 30px;
 }
@@ -154,6 +158,14 @@ main img {
 }
 
 #btnlista {
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 69px;
+    height: 44px;
+    margin-right: 20px;
+}
+
+#btngo {
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     width: 69px;
@@ -181,7 +193,10 @@ footer {
 
 footer ul li {
     list-style-type: none;
+}
 
+footer a {
+    color: white;
 }
 
 #footleft {
@@ -191,6 +206,10 @@ footer ul li {
     align-items: flex-start;
     width: 25vw;
     margin: 0 0 0 100px;
+}
+
+#imgfoot {
+    margin: 0 0 0 20px;
 }
 
 #footcent {
@@ -208,6 +227,10 @@ footer ul li {
     line-height: 0px;
 }
 
+#iconitos {
+    margin: 0 10px;
+}
+
 #pderechosreservados {
     color: #8C8C94;
     font-size: 13px;
@@ -215,9 +238,35 @@ footer ul li {
 
 
 form input[type="email"]{
-	width:201px;
+	width:180px;
     height: 44px;
     padding: 10px;
 	border-radius:50px;
 	background-color:#FFFFFF;
 }
+
+a {
+    color: #242E52;
+    text-decoration: none;
+}
+
+/*Pseudoclases*/
+a:hover {
+    opacity: 60%;
+}
+
+button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+#btngo:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+#btnlista:hover {
+    opacity: 100%;
+    cursor: default;
+}
+
