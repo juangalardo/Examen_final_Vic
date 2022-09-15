@@ -1,3 +1,6 @@
+
+/* VICTOR GENIO DEL ALMA TENE EN CUENTA ESTO: */
+
 /*La resolución es 1440 x 1080 */
 
 * {
@@ -21,7 +24,7 @@ header {
 
 header img {
     display: flex;
-    width: 125px;
+    width: 120px;
     height: 24px;
 }
 
@@ -38,6 +41,10 @@ header nav li {
     list-style: none;
     margin: 10px;
     cursor: pointer;
+}
+
+#burger {
+    display: none;
 }
 
 button {
@@ -128,9 +135,9 @@ main img {
     margin: 20px;
 }
 
-.card {
+.card1, .card2, .card3 {
     text-align: center;
-    overflow: hidden;
+    overflow: visible;
     width: 30vw;
     background-color: #FAFAFA;
 }
@@ -174,7 +181,7 @@ main img {
 }
 
 #plista {
-    margin-left: 90px;
+    margin: 0 0 0 90px;
     color: #B3B2B7;
     line-height: 25px;
 }
@@ -227,6 +234,10 @@ footer a {
     line-height: 0px;
 }
 
+#redes {
+    display: flex;
+}
+
 #iconitos {
     margin: 0 10px;
 }
@@ -255,6 +266,10 @@ a:hover {
     opacity: 60%;
 }
 
+button:active {
+    transform:scale(1.5)
+}
+
 button:hover {
     opacity: 70%;
     cursor: pointer;
@@ -270,3 +285,106 @@ button:hover {
     cursor: default;
 }
 
+
+@media(max-width:480px){
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav li{
+    display:none 
+}
+
+header button {
+    display: none;
+}
+
+main {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 100vw;
+    margin: 0px 0px 0px 0px;
+}
+
+main button {
+    align-self: center;
+}
+
+#pgeneral {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+
+#btnlista {
+    display: block;
+}
+
+#sectionlistita {
+    flex-direction: column; 
+}
+
+
+#burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0 0 10px 80px;
+}
+
+#izq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+#plista {
+    color: #B3B2B7;
+    line-height: 25px;
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(139, 72, 191, 0.3);
+    border-radius: 100px 0 0 100px;
+}
+
+.card1, .card3 {
+    display: none;
+}
+
+.card2 {
+    width: 90vw;
+}
+
+#purple {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    text-align: center;
+}
+
+footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footleft, #imgfoot {
+    margin: 0 0 0 0;
+}
+
+
+
+}
