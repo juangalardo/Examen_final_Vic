@@ -14,6 +14,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*Comienza header*/
+
 header {
     margin: 20px;
     padding: 5px;
@@ -57,6 +59,10 @@ button {
     height: 44px;
 }
 
+/*Acá termina el header*/
+
+/*Main es sólo el texto a la izquierda y la imagen a la derecha*/
+
 main {
     display: flex;
     justify-content: space-evenly;
@@ -91,6 +97,8 @@ main img {
     margin: 90px;
 }
 
+/* Acá comienza lo que continúa del main, que lo llamé section*/
+
 #sectionlistita {      
     display: flex;
     justify-content: space-evenly;
@@ -112,6 +120,10 @@ main img {
 #der {
     width: 440px;
 }
+
+/*Aca termina la sectionlistita*/
+
+/*Aca comienza el What they've said*/
 
 #pcaritastitulo {
     color: #232851;
@@ -152,6 +164,10 @@ h5 {
     bottom: 15px;
 }
 
+/*acá termina lo de las caritas*/
+
+/*acá el previo al footer*/
+
 #purple {
     display: flex;
     justify-content: space-around;
@@ -169,6 +185,7 @@ h5 {
     width: 438px;
 }
 
+/*le puse inverse, un id para invertir los colores del button*/
 #inverse {
     background-color: #FFFFFF;
     color: #8B48BF;
@@ -200,6 +217,8 @@ h5 {
     color: #B9B9C1;
 }
 
+/*Acá comienza el footer, que lo dividí en 3 partes:left, cent y right*/
+
 footer {
     background-color: #1E1E26;
     display: flex;
@@ -224,14 +243,6 @@ footer a {
     margin: 0;
 }
 
-#derechosmobile {
-    display: none;
-}
-
-#derechosdesktop {
-    display: block;
-}
-
 #footcent {
     display: flex;
     justify-content: space-between;
@@ -248,6 +259,16 @@ footer a {
 
 }
 
+#derechosmobile {
+    display: none;
+}
+
+#derechosdesktop {
+    display: block;
+}
+
+/*iconos de las redes sociales*/
+
 #redes {
     display: flex;
 }
@@ -255,6 +276,10 @@ footer a {
 #iconitos {
     margin: 0 10px;
 }
+
+/*terminan iconos de las redes*/
+
+/*acá es donde va el mail y el button go*/
 
 form input[type="email"]{
 	width:180px;
@@ -268,6 +293,7 @@ a {
     color: #242E52;
     text-decoration: none;
 }
+
 
 /*Pseudoclases*/
 a:hover {
@@ -318,6 +344,10 @@ main {
     margin: 0px 0px 0px 0px;
 }
 
+main img {
+    width: 95vw;    
+}
+
 main button {
     align-self: center;
 }
@@ -336,6 +366,7 @@ main button {
 
 #sectionlistita {
     flex-direction: column; 
+    align-items: center;
 }
 
 
@@ -425,6 +456,8 @@ form {
 
 #derechosmobile {
     display: block;
+    font-size: 12px;
+    color: #8C8C94;
 }
 
 }
