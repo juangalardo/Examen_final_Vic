@@ -129,6 +129,11 @@ main img {
     margin: 20px;
 }
 
+#caritas img {
+    position: relative;
+    bottom: 30px;
+}
+
 #testimonios {
     display: flex;
     justify-content: center;
@@ -140,6 +145,11 @@ main img {
     overflow: visible;
     width: 30vw;
     background-color: #FAFAFA;
+}
+
+h5 {
+    position: relative;
+    bottom: 15px;
 }
 
 #purple {
@@ -210,19 +220,22 @@ footer a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
-    width: 25vw;
-    margin: 0 0 0 100px;
+    align-items: center;
+    margin: 0;
 }
 
-#imgfoot {
-    margin: 0 0 0 20px;
+#derechosmobile {
+    display: none;
+}
+
+#derechosdesktop {
+    display: block;
 }
 
 #footcent {
     display: flex;
-    justify-content: flex-start;
-    width: 25vw;     
+    justify-content: space-between;
+    width: 30vw;
     line-height: 35px;
 }
 
@@ -230,8 +243,9 @@ footer a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 25vw;
+    align-items: center;
     line-height: 0px;
+
 }
 
 #redes {
@@ -241,12 +255,6 @@ footer a {
 #iconitos {
     margin: 0 10px;
 }
-
-#pderechosreservados {
-    color: #8C8C94;
-    font-size: 13px;
-}
-
 
 form input[type="email"]{
 	width:180px;
@@ -287,7 +295,7 @@ button:hover {
 
 
 @media(max-width:480px){
-
+    
 header {
     justify-content: space-between;
     align-items: center;
@@ -357,6 +365,7 @@ h4 {
     align-items: center;
     background-color: rgba(139, 72, 191, 0.3);
     border-radius: 100px 0 0 100px;
+    width: 100vw;
 }
 
 .card1, .card3 {
@@ -381,10 +390,42 @@ footer {
     align-items: center;
 }
 
-#footleft, #imgfoot {
-    margin: 0 0 0 0;
+#footleft {
+    flex-direction: column-reverse;
+    line-height: 90px;
 }
 
+#footcent {
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 0 25px 0;
+    order: -2;
+}
 
+#footright {
+    order: -3;
+}
+
+#iconitos {
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+form {
+    margin:0 0 25px 0;
+}
+
+#managemobile {
+    text-align: center;
+}
+
+#derechosdesktop {
+    display: none;
+}
+
+#derechosmobile {
+    display: block;
+}
 
 }
+
